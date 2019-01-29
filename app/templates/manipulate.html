@@ -1,0 +1,25 @@
+<html align="center">
+
+<body>
+    <h3>更新球员面部特征JSON文件</h3>
+    <form method="POST" enctype="multipart/form-data">
+        <table border="1" align="center">
+
+            <tr>
+                <th><input type="radio" name="selected_option" value="generate_json" /></th>
+                <th>完整生成JSON，此操作会全部更新之前的squads.json，同时会极大的占用CPU</th>
+            </tr>
+
+            <tr>
+                <th><input type="radio" name="selected_option" value="renew_json" /></th>
+                <th>更新小部分球员信息，此操作不会覆盖updatesquads.json</th>
+            </tr>
+
+        </table>
+
+        <br>
+        <input type="submit">
+    </form>
+</body>
+
+</html>
