@@ -24,7 +24,7 @@ greenlet==0.4.13
 guess-language==0.2
 idna==2.7
 itsdangerous==0.24
-Jinja2==2.10
+Jinja2==2.11.3
 MarkupSafe==1.0
 numpy==1.14.3
 opencv-python==3.4.1.15
